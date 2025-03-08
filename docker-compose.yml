@@ -134,4 +134,4 @@ services:
       - OPENVPN_PASSWORD=MtcBi3eDhn
       - SERVER_COUNTRIES=United Kingdom
     volumes:
-      - ./gluetun:/gluetun
+      - /mnt/HDD/Media/config/VPN Cert:/config/client.crt
