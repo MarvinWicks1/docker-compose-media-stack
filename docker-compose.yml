@@ -38,7 +38,7 @@ services:
     ports:
       - 7878:7878
     restart: unless-stopped
-	
+
   #################################
   ###Prowlarr
   #################################
@@ -55,7 +55,7 @@ services:
     ports:
       - 9696:9696
     restart: unless-stopped
-	
+
   #################################
   ###Jellyfin
   #################################
@@ -78,7 +78,7 @@ services:
       - 7359:7359/udp #optional
       - 1900:1900/udp #optional
     restart: unless-stopped
-	
+
   #################################
   ###Jellyseer
   #################################
