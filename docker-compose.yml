@@ -18,8 +18,7 @@ services:
       - /mnt/HDD/Media:/media
     ports:
       - 8989:8989
-    restart: 
-    	unless-stopped
+    restart: unless-stopped
 
   #################################
   ###Radarr
