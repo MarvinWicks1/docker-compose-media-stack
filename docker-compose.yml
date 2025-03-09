@@ -103,5 +103,6 @@ services:
       - OPENVPN_USER=egibifwy2r
       - OPENVPN_PASSWORD=MtcBi3eDhn
       - SERVER_COUNTRIES=United Kingdom
+      - OPENVPN_CLIENT_CERT=/mnt/HDD/Media/config/vpn_cert/client.crt
     volumes:
       - /mnt/HDD/Media/config/vpn_cert:/gluetun
